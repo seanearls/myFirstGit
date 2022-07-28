@@ -3,4 +3,11 @@ Workshop 2
 Sean Earls - s5206966
 */
 
-console.log("hello world")
+function add(numberA, numberB) {
+    //function adds 2 numbers
+    return numberA + numberB;
+}
+
+console.log("hello world");
+
+console.log(add(5, 10));
